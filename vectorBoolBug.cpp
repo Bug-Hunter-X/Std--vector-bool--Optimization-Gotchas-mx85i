@@ -1,0 +1,1 @@
+std::vector<bool> is not a true vector. It is implemented as a bitset, which means that its elements are not stored as individual booleans in memory, but as bits within a larger integer.  This can lead to unexpected behavior when trying to use it like a regular vector.
